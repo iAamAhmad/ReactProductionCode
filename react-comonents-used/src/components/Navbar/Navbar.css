@@ -1,0 +1,79 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar-link-item {
+  margin-right: 1rem;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: #ccc;
+}
+
+.navbar-link.active {
+  color: #ff6347;
+}
+
+.navbar-cta {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar-profile {
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0;
+  text-align: left;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+.rounded-imae {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
