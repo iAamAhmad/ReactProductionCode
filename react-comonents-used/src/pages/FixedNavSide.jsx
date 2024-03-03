@@ -28,7 +28,7 @@ const FixedNavSide = () => {
 
    const contentStyle = {
       paddingTop: '4rem',
-      paddingLeft: sidebarCollapsed ? '4rem' : '16.5rem',
+      paddingLeft: sidebarCollapsed ? '4.5rem' : '16.5rem',
       paddingRight: '0.5rem',
    };
 
