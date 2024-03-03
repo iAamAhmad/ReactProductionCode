@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 const FixedNavSide = () => {
-   const [sidebarCollapsed, setSidebarCollapsed] = useState(window.innerWidth < 640); // Automatically collapse sidebar at sm breakpoint
+   const [sidebarCollapsed, setSidebarCollapsed] = useState(window.innerWidth < 1024); // Automatically collapse sidebar at md breakpoint
 
    const toggleSidebar = () => {
       setSidebarCollapsed(!sidebarCollapsed);
@@ -9,7 +9,7 @@ const FixedNavSide = () => {
 
    useEffect(() => {
       const handleResize = () => {
-         setSidebarCollapsed(window.innerWidth < 640);
+         setSidebarCollapsed(window.innerWidth < 1024);
       };
 
       window.addEventListener('resize', handleResize);
