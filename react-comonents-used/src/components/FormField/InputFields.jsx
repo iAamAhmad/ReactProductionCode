@@ -14,8 +14,10 @@ const InputFields = () => {
 
    return (
       <form onSubmit={handleSubmit(onSubmit)}>
+         <h1 className='text-center my-2'>Production based Form</h1>
          <div className="goof-form">
             <div className="form-group">
+               <label htmlFor="name">Name:</label>
                <label htmlFor="name">Name:</label>
                <input
                   type="text"
