@@ -28,7 +28,7 @@ const FixedNavSide = () => {
 
    const contentStyle = {
       paddingTop: '4rem',
-      paddingLeft: sidebarCollapsed ? '4.5rem' : '16.5rem',
+      paddingLeft: sidebarCollapsed ? '4.3rem' : '16.3rem',
       paddingRight: '0.5rem',
    };
 
@@ -55,19 +55,28 @@ const FixedNavSide = () => {
                </div>
                {/* Third Section */}
                <div className="grid sm:grid-cols-12 gap-3 mt-2 text-center">
-                  <div className="min-h-[300px] bg-red-300 sm:col-span-4 hidden sm:block gap-3">
+                  <div className="min-h-[200px] bg-red-300 sm:col-span-3  gap-3">
                      Main Content
                   </div>
-                  <div className="min-h-[300px] bg-green-500 sm:col-span-4">Main Content</div>
-                  <div className="min-h-[300px] bg-slate-500 sm:col-span-4 hidden sm:block">Display only Lg</div>
+                  <div className="min-h-[200px] bg-green-500 sm:col-span-3">Main Content</div>
+                  <div className="min-h-[200px] bg-slate-500 sm:col-span-3 ">Display only Lg</div>
+                  <div className="min-h-[200px] bg-slate-500 sm:col-span-3 ">Display only Lg</div>
                </div>
                {/* Third Section */}
                <div className="grid sm:grid-cols-12 gap-3 mt-2 text-center">
-                  <div className="min-h-[300px] bg-red-300 sm:col-span-4 hidden sm:block gap-3">
+                  <div className="min-h-[500px] bg-red-300 sm:col-span-8 k gap-3">
                      Main Content
                   </div>
-                  <div className="min-h-[300px] bg-green-500 sm:col-span-4">Main Content</div>
-                  <div className="min-h-[300px] bg-slate-500 sm:col-span-4 hidden sm:block">Display only Lg</div>
+                  <div className="min-h-[500px] bg-green-500 sm:col-span-4">Main Content</div>
+                  
+               </div>
+               <div className="grid sm:grid-cols-12 gap-3 my-2 text-center">
+                  <div className="min-h-[250px] bg-red-300 sm:col-span-4 k gap-3">
+                     Main Content
+                  </div>
+                  <div className="min-h-[250px] bg-green-500 sm:col-span-4">Main Content</div>
+                  <div className="min-h-[250px] bg-green-900 sm:col-span-4">Main Content</div>
+                  
                </div>
             </div>
          </div>
