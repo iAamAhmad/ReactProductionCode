@@ -1,0 +1,119 @@
+.goof-form {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #f9f9f9;
+   border-radius: 10px;
+}
+
+.form-group {
+   margin-bottom: 20px;
+}
+
+label {
+   display: block;
+   font-weight: bold;
+
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 16px;
+}
+
+input[type="range"] {
+   width: 100%;
+}
+
+.price-output {
+   display: block;
+   margin-top: 5px;
+   font-size: 14px;
+   color: #666;
+}
+
+textarea {
+   resize: vertical;
+}
+
+input[type="time"],
+input[type="month"],
+input[type="week"],
+input[type="date"] {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 16px;
+}
+.submit-button {
+  
+   margin: 20px auto;
+   padding: 10px 20px;
+   background-color: #4CAF50 !important;
+   color: black;
+  
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.error-message {
+   color: red;
+   font-size: 14px;
+}
+.input-with-icon {
+   position: relative;
+}
+
+.input-with-icon {
+   position: relative;
+   display: flex; /* Ensure that the icon and input field are aligned horizontally */
+}
+
+.input-icon {
+   display: flex;
+   align-items: center;
+   position: absolute;
+   right: 10px; /* Adjust this value to position the toggle icon */
+   top: 50%;
+   /* transform: translateY(-50%); */
+   cursor: pointer;
+   color: #666;
+}
+
+.toggle-password {
+   display: flex;
+   align-items: center;
+   position: absolute;
+   right: 10px; /* Adjust this value to position the toggle icon */
+   top: 50%;
+   /* transform: translateY(-50%); */
+   cursor: pointer;
+}
+
+.error-message {
+   color: red;
+   font-size: 14px;
+}
+
+
+
+
+
+.select-wrapper {
+   position: relative;
+}
+
+
+.dropdown-icon {
+   position: absolute;
+   top: 50%;
+   right: 5px; /* Adjust as needed */
+   pointer-events: none;
+}
