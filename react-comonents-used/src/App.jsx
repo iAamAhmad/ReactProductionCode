@@ -4,7 +4,8 @@
 // import ZShapedLayout from './pages/ZShapedLayout'
 // import Home from './pages/Home'
 
-import InputFields from "./components/FormField/InputFields"
+// import InputFields from "./components/FormField/InputFields"
+import CustomSlider from "./components/Slider/Slider"
 
 // import FixedNavSide from "./pages/FixedNavSide"
 
@@ -17,7 +18,9 @@ function App() {
       {/* <FShapedLayout/> */}
       {/* <ZShapedLayout/> */}
       {/* <FixedNavSide/> */}
-      <InputFields/>
+      {/* <InputFields/>
+      < */}
+      <CustomSlider/>
     </div>
   )
 }
