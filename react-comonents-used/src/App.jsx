@@ -4,8 +4,11 @@
 // import ZShapedLayout from './pages/ZShapedLayout'
 // import Home from './pages/Home'
 
+import PracticeCss from "./components/CssPractice/PracticeCss"
+
 // import InputFields from "./components/FormField/InputFields"
-import CustomSlider from "./components/Slider/Slider"
+// import PracticeCss from "./components/CssPractice/PracticeCss"
+// import CustomSlider from "./components/Slider/Slider"
 
 // import FixedNavSide from "./pages/FixedNavSide"
 
@@ -20,7 +23,9 @@ function App() {
       {/* <FixedNavSide/> */}
       {/* <InputFields/>
       < */}
-      <CustomSlider/>
+      {/* <CustomSlider/> */}
+      <PracticeCss/>
+
     </div>
   )
 }
