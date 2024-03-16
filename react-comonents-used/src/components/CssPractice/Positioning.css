@@ -1,0 +1,41 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.container-parent {
+  position: relative;
+  height: 100vh;
+
+  background: rgba(0, 128, 0, 0.3);
+}
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
