@@ -37,6 +37,7 @@ const Navbar = () => {
                   <div className="navbar-dropdown">
                      <a href="/edit-profile" className="navbar-dropdown-item">Edit Profile</a>
                      <a href="/logout" className="navbar-dropdown-item">Logout</a>
+                     <a href="/logout" className="navbar-dropdown-item">Logout</a>
                   </div>
                )}
                <div className="dropdown-icon" onClick={toggleDropdown}>
