@@ -4,7 +4,8 @@
 // import ZShapedLayout from './pages/ZShapedLayout'
 // import Home from './pages/Home'
 
-import PracticeCss from "./components/CssPractice/PracticeCss"
+import PracticeCss from "./components/CssPractice/Positioning"
+
 
 // import InputFields from "./components/FormField/InputFields"
 // import PracticeCss from "./components/CssPractice/PracticeCss"
