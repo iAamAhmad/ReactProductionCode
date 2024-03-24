@@ -1,8 +1,11 @@
 // import Navbar from "../components/Navbar/Navbar"
-import InputFields from "../components/FormField/InputFields"
+// import InputFields from "../components/FormField/InputFields"
+// import Slider from "../components/Slider/Slider"
 // import EqualParts from "../components/tailwind/EqualParts"
 // import Tailwind from "../components/tailwind/Tailwind"
 // import ThreeParts from "../components/tailwind/ThreeParts"
+
+import Slider from "../components/Slider/Slider"
 
 
 const Home = () => {
@@ -13,7 +16,7 @@ const Home = () => {
       {/* <Tailwind/>
       <ThreeParts/>
       <EqualParts/> */}
-      <InputFields/>
+      <Slider/>
     </div>
   )
 }
