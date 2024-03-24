@@ -4,7 +4,8 @@
 // import ZShapedLayout from './pages/ZShapedLayout'
 // import Home from './pages/Home'
 
-import PracticeCss from "./components/CssPractice/Positioning"
+// import PracticeCss from "./components/CssPractice/Positioning"
+import Home from "./pages/Home"
 
 
 // import InputFields from "./components/FormField/InputFields"
@@ -18,14 +19,14 @@ function App() {
 
   return (
     <div className="">
-      {/* <Home/> */}
+      <Home/>
       {/* <FShapedLayout/> */}
       {/* <ZShapedLayout/> */}
       {/* <FixedNavSide/> */}
       {/* <InputFields/>
       < */}
       {/* <CustomSlider/> */}
-      <PracticeCss/>
+      {/* <PracticeCss/> */}
 
     </div>
   )

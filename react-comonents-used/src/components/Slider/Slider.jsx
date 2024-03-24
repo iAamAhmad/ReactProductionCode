@@ -1,55 +1,42 @@
-import Slider from "react-slick";
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import "./Slider.css"
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
-function CustomSlider() {
-  var settings = {
-    dots: true,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
+export default function Slider() {
   return (
-    <div className="slider-container">
-      <Slider {...settings}>
-        <div>
-          <div className="container">
-            <img src="https://picsum.photos/id/1018/200/300" alt="1" />
-            <img src="https://picsum.photos/id/1019/200/300" alt="2" />
-            <img src="https://picsum.photos/id/1020/200/300" alt="3" />
-          </div>
-        </div>
-        
-      </Slider>
-    </div>
+    <Swiper
+      className='col-md-10 rounded-lg border-amber-950 mt-6 bg-slate-500'
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={100}
+      slidesPerView={3}
+
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+      navigation={{
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }}
+    >
+      {[...Array(3)].map((_, bannerIndex) => (
+        <SwiperSlide key={`banner-${bannerIndex}`} className='w-100 flex justify-between'>
+          {[...Array(3)].map((_, imageIndex) => (
+            <img
+              key={`image-${bannerIndex}-${imageIndex}`}
+              src={`https://picsum.photos/id/${Math.floor(Math.random() * 1000)}/800/400`}
+              alt={`Slide ${imageIndex + 1}`}
+              className='m-2 rounded mt-[-20]'
+            />
+          ))}
+        </SwiperSlide>
+      ))}
+      <div className="swiper-button-next"></div>
+      <div className="swiper-button-prev"></div>
+    </Swiper>
   );
 }
-
-export default CustomSlider;
