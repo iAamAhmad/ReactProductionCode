@@ -58,6 +58,9 @@
 .swiper-button-next {
   right: 10px;
 }
+.swiper-button-next {
+  right: 15px;
+}
 .swiper-slide img {
   margin-top: -20px; /* Adjust this value as needed */
 }
