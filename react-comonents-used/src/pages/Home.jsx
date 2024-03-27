@@ -17,6 +17,8 @@ const Home = () => {
       <ThreeParts/>
       <EqualParts/> */}
       <Slider/>
+      <Slider/>
+      <Slider/>
     </div>
   )
 }
