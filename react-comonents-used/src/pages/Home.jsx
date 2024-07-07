@@ -1,10 +1,12 @@
-import FormFieldCustom from "./FormFieldCustom"
+import ReuseAbleForm from "./ReuseAbleForm"
+
 
 
 const Home = () => {
   return (
     <div>
-      <FormFieldCustom/>
+      {/* <FormFieldCustom/> */}
+      <ReuseAbleForm/>
     </div>
   )
 }
