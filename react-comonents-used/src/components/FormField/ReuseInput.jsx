@@ -5,11 +5,11 @@ const InputField = ({
   label,
   type = 'text',
   name,
-  value,
   onChange,
   register,
   requiredMessage,
   error,
+  ...props
 }) => {
   return (
     <div className="flex flex-col gap-1 mb-4">
@@ -21,9 +21,10 @@ const InputField = ({
         type={type}
         id={name}
         name={name}
-        value={value}
+        {...props}
         onChange={onChange}
         {...register(name, { required: requiredMessage })}
+
       />
       {error && <span className="text-blue-600">{error.message}</span>}
     </div>

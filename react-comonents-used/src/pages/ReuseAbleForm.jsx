@@ -45,7 +45,7 @@ const FormFieldCustom = () => {
         <InputField
           label="UserName"
           name="userName"
-          value={formData.userName}
+        
           onChange={onChangeHandler}
           register={register}
           requiredMessage="Name is required"
@@ -54,7 +54,7 @@ const FormFieldCustom = () => {
         <InputField
           label="Email"
           name="email"
-          value={formData.email}
+       
           onChange={onChangeHandler}
           register={register}
           requiredMessage="Email is required"
@@ -69,7 +69,7 @@ const FormFieldCustom = () => {
               name="gender"
               value="Male"
               onChange={onChangeHandler}
-              checked={formData.gender === 'Male'}
+              
               register={register}
               requiredMessage="Gender is required"
               error={errors.gender}
@@ -80,7 +80,7 @@ const FormFieldCustom = () => {
               name="gender"
               value="Female"
               onChange={onChangeHandler}
-              checked={formData.gender === 'Female'}
+              
               register={register}
               requiredMessage="Gender is required"
               error={errors.gender}
@@ -96,7 +96,7 @@ const FormFieldCustom = () => {
               name="languages"
               value="Urdu"
               onChange={onChangeHandler}
-              checked={formData.languages.includes('Urdu')}
+              
               register={register}
               requiredMessage="Languages are required"
               error={errors.languages}
@@ -107,7 +107,7 @@ const FormFieldCustom = () => {
               name="languages"
               value="English"
               onChange={onChangeHandler}
-              checked={formData.languages.includes('English')}
+            
               register={register}
               requiredMessage="Languages are required"
               error={errors.languages}
@@ -118,7 +118,7 @@ const FormFieldCustom = () => {
               name="languages"
               value="German"
               onChange={onChangeHandler}
-              checked={formData.languages.includes('German')}
+             
               register={register}
               requiredMessage="Languages are required"
               error={errors.languages}
