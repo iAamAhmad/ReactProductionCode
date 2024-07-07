@@ -1,24 +1,10 @@
-// import Navbar from "../components/Navbar/Navbar"
-// import InputFields from "../components/FormField/InputFields"
-// import Slider from "../components/Slider/Slider"
-// import EqualParts from "../components/tailwind/EqualParts"
-// import Tailwind from "../components/tailwind/Tailwind"
-// import ThreeParts from "../components/tailwind/ThreeParts"
-
-import Slider from "../components/Slider/Slider"
+import FormFieldCustom from "./FormFieldCustom"
 
 
 const Home = () => {
   return (
     <div>
-     
-      {/* <Navbar/> */}
-      {/* <Tailwind/>
-      <ThreeParts/>
-      <EqualParts/> */}
-      <Slider/>
-      <Slider/>
-      <Slider/>
+      <FormFieldCustom/>
     </div>
   )
 }
